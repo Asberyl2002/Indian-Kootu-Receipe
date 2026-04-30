@@ -223,7 +223,7 @@ class TypeOfCooking(VegPreparation):
                 while True:
                     salt = input("Check the salt is crt or not yes/no: ")
                     if salt == "yes":
-                        print("tir it well and close the lid the dish is ready!")
+                        print("stir it well and close the lid the dish is ready!")
                         break
                     else:
                         print("Please add salt and stir it properly.")
