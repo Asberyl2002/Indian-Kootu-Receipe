@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cabbage Recipe</title>
+
+  <style>
+    body{
+      font-family: Arial;
+      text-align:center;
+      margin-top:100px;
+      background:#fff8f0;
+    }
+
+    button{
+      padding:12px 25px;
+      font-size:18px;
+      border:none;
+      border-radius:8px;
+      background:green;
+      color:white;
+      cursor:pointer;
+    }
+
+    button:hover{
+      background:darkgreen;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Cabbage Recipe Page</h1>
+
+  <button onclick="goServer()">YES</button>
+
+  <script>
+  function goServer() {
+
+    window.location.href =
+      "http://127.0.0.1:8000/indian_kootu_receipe/cabbagekootu?q=yes";
+
+  }
+</script>
+
+</body>
+</html>
